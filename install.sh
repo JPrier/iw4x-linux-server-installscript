@@ -67,10 +67,10 @@ fi
 
 echo "### Extracting MW2 ###"
 unzip /home/"$username"/MW2.zip -d /home/"$username"/servers/"$svalias"/
-echo "### Extracting MW2-DLC's ###"
-unzip -u /home/"$username"/iw4x_dlc.zip -d /home/"$username"/servers/"$svalias"/MW2/
-echo "### Extracting iw4x files ###"
-unzip -u /home/"$username"/iw4x_files.zip -d /home/"$username"/servers/"$svalias"/MW2/
+# echo "### Extracting MW2-DLC's ###"
+# unzip -u /home/"$username"/iw4x_dlc.zip -d /home/"$username"/servers/"$svalias"/MW2/
+# echo "### Extracting iw4x files ###"
+# unzip -u /home/"$username"/iw4x_files.zip -d /home/"$username"/servers/"$svalias"/MW2/
 
 echo "### Generating server.cfg ###"
 cat > /home/"$username"/servers/"$svalias"/MW2/iw4x/server.cfg <<EOF
